@@ -21,8 +21,15 @@ int main(){
     puts(" F    C");
     for (int i = 40; i <=300; i=i+20)
     {
-        c=5 * (i - 32) / 9;
-        printf("%d    %d\n",i,c);
+        if(i==260||i==280){
+           i=i+20;
+           
+        }
+        else
+        {
+             c=5 * (i - 32) / 9;
+            printf("%d    %d\n",i,c);
+        }
     }
     
 }
