@@ -11,7 +11,6 @@ int main()
             break;
         }
     }
-
     if (i == m)
     {
         printf("是素数");

@@ -19,7 +19,8 @@ int main(void)
         printf("该整数是0\n");
         break;
     
-    default:printf("该整数不是0\n");
+    default:
+        printf("该整数不是0\n");
         break;
     }
     return 0;

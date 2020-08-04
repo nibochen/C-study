@@ -12,30 +12,14 @@ int main(){
     scanf("%d",&b);
     printf("请输入C:");
     scanf("%d",&c);
-    if (a<b)
-    {
-        if (a<c)
-        {
-            printf("A最小");
-        }else
-        {
-             printf("C最小");
-        }
-        
-        
-    }else
-    {
-        if (c>b)
-        {
-            printf("B最小");
-        }else
-        {
-            printf("C最小");
-        }
-        
-        
+    int max;
+    max=a;
+    if (b>max){
+        max=b;
     }
-    
-    
+    if(c>max){
+        max=c;
+    }
+    printf("%d",max);
 
 }

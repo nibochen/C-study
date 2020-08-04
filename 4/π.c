@@ -6,7 +6,9 @@ int main()
     double sum = 0;
     int flag = 1;
     int fenmu = 1;
-    while (fabs(item) >= 0.0001)
+    double e;
+    scanf("%lf",&e);
+    while (fabs(item)>=e)
     {
         sum = sum + item;
         flag = -flag;

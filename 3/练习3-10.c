@@ -16,7 +16,7 @@ int main(){
         printf("三个值都相等");
     }else
     {
-        if (a==b||a==c)
+        if (a==b||a==c||b==c)
         {
             printf("有两个值相等");
         }else
