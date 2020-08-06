@@ -31,18 +31,19 @@ int main(void)
 int main(void)
 {
     int i , n;
-int x=0;
+    int x=0;
     printf("整数值：");
     scanf("%d", &n);
 
     for (i = 1; i <= n; i ++) {
         if (n % i == 0){
-            x++;
+               x++;
             printf("%d ", i);}
             
     }
     putchar('\n');
-        printf("约数有%d个。\n",x);
+    printf("约数有%d个。\n",x);
 
-    return 0;
+     return 0;
 }
+             

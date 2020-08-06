@@ -14,8 +14,7 @@ int main()
     if (i == m)
     {
         printf("是素数");
-    }
-    else
+    }else
     {
         printf("不是素数");
     }

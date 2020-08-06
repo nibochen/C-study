@@ -11,10 +11,15 @@
 #include <stdio.h>
 int main(void)
 {
-    int i, no;
+    int no;
     printf("请输入一个正整数：");
     scanf("%d", &no);
-    for (i = 1; i <= no; i++)
+    if (no==0)
+    {
+        return 0;
+    }
+    
+    for (int i = 1; i <= no; i++)
     {
         printf("*");
         if (i%5==0)

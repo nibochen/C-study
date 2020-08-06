@@ -17,9 +17,9 @@ int main(){
         l = h;
         h = max;
     }
-    for (int i = 0; i < l; i++)
-    {
-        for (int i = 0; i < h; i++)
+     for (int i = 0; i < l; i++)
+     {
+         for (int i = 0; i < h; i++)
         {
             printf("* ");
         }

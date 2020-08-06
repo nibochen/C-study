@@ -21,7 +21,7 @@ int main(){
     for ( int i=open; i <=end; i+=x)
     {
         y=(i-80)*0.7;
-        printf("%dcm %0.2lfkg\n",i,y);
+        printf("%dcm   %0.2lfkg\n",i,y);
     }
     
 }

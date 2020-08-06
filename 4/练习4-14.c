@@ -6,25 +6,19 @@
 123456789012345678901234
 */
 #include <stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    for (int i = 0; i < n; i++)
-    {
-        for (int i = 1; i <= 9; i++)
-        {
-            if (i==10)
-            {
-                i=0;
-                printf("0");
-            }else
-            {
-                printf("%d",i);
-            }
-            
-            
-        }
-        
+
+int main() {
+    int num,i,j;
+    printf("请输入一个整数:");
+    scanf("%d", &num);
+    i = num / 10;
+     j  = num %10;
+    while (i-->0)
+    printf("1234567890");
+    for (i = 1; i <= j; i++){
+        printf("%d",i);
     }
+          printf("\n");
+    return 0;
     
-}
+}  
