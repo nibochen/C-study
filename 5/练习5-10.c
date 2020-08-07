@@ -37,7 +37,7 @@ int main(void)
             c[i][j] = 0;
             for (k = 0; k < 3; k++)
             {
-                c[i][j] += a[i][k] + b[k][j];
+                c[i][j] += a[i][k] *b[k][j];
             }
         }
     }
