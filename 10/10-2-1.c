@@ -1,4 +1,6 @@
 #include<stdio.h>
+
+
 void decrement_date(int *y,int *m,int *d)
 {
     //日期先加1
@@ -50,6 +52,9 @@ void decrement_date(int *y,int *m,int *d)
       }
 }
       
+
+
+
 void increment_date(int *y,int *m,int *d){
         //日期先减1
     *d=*d-1;
@@ -98,10 +103,9 @@ void increment_date(int *y,int *m,int *d){
           *m=12;
           *y=*y-1;
       }
-    
-
-
 }
+
+
 
 int main(void)
 {
@@ -113,6 +117,5 @@ int main(void)
 	increment_date(&y, &m, &d);//抵消加一
 	increment_date(&y, &m, &d);
 	printf("日减加一:%d %d %d\n",y,m,d);
- 
 	return 0;
 }
